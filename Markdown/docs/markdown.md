@@ -1,3 +1,15 @@
+[1. Thẻ tiêu đề.](#1)
+
+[2. Chèn link, chèn ảnh.](#2)
+
+[3. Ký tự in đậm, in nghiêng.](#3)
+
+[4. Trích dẫn, bo chữ.](#4)
+
+[5. Gạch đầu dòng.](#5)
+
+[6. Tạo bảng:](#6)
+
 # I. Ngôn ngữ markdown:
 Ngôn ngữ này khá đơn giản, bạn có thể đọc tại [đây](https://daringfireball.net/projects/markdown/syntax) để biết cách sử dụng.
 
@@ -6,7 +18,7 @@ Nhưng với tôi, tôi không dùng hết từng ấy thứ cho nên tôi chỉ
 Tạo một file có tên bất kỳ với đuôi .md. Có thể dùng `notepad`, `notepad++`, `vi`, `nano'`... hay bất cứ thứ gì bạn muốn.
 
 Một số phương pháp hay sử dụng:
-## 1.Thẻ tiêu đề.
+## 1.Thẻ tiêu đề.  <a name="1"></a>
 Markdown sử dụng ký tự # để bắt đầu cho các thẻ tiêu đề, có thể dùng từ 1 đến 6 ký tự # liên tiếp. Mức độ tiêu đề giảm từ 1 đến 6.
 
 Tùy vào mục đích và ý thích bạn có thể sử dụng cách này để thể hiện các chỉ mục khác nhau.
@@ -25,7 +37,7 @@ Ví dụ:
 ###### 6. Tiêu đề cấp 6
 ```
 ###### 6. Tiêu đề cấp 6 
-## 2. Chèn link, chèn ảnh.
+## 2. Chèn link, chèn ảnh. <a name="2"></a>
 Để chèn hyperlink chỉ cần paste luôn link đó vào file.md
 
 ```
@@ -50,7 +62,7 @@ Kết quả là:
 <img src="link-hình-ảnh">
 ```
 
-## 3. Ký tự in đậm, in nghiêng.
+## 3. Ký tự in đậm, in nghiêng. <a name="3"></a>
 - Để in đậm 1 đoạn text cần làm như sau:
 
 ```
@@ -66,7 +78,7 @@ Kết quả là:
 
 *Từ cần in nghiêng*
 
-## 4. Trích dẫn, bo chữ.
+## 4. Trích dẫn, bo chữ. <a name="4"></a>
 Để bo một đoạn text thì bạn chỉ cần sử dụng cú pháp sau:
 
 ```
@@ -96,7 +108,7 @@ netmask 255.255.255.0
 gateway 10.10.10.1
 dns-nameservers 8.8.8.8
 ```
-## 5. Gạch đầu dòng.
+## 5. Gạch đầu dòng.  <a name="5"></a>
 Để sử dụng gạch đầu dòng bạn cần sử dụng cú pháp như sau:
 ```
 - Gạch đầu dòng thứ nhất
@@ -121,7 +133,7 @@ kết quả là:
 
     - Thụt với đầu dòng 2
 
-## 6. Tạo bảng:
+## 6. Tạo bảng:  <a name="6"></a>
 Bạn có thể sử dụng cú pháp sau để tạo bảng:
 ```
 | | Cột 1 | Cột 2 | Cột 3|
@@ -144,7 +156,6 @@ Kết quả:
 - Cũng có thể sử dụng những đoạn markdown của người khác đã viết trước để tham khảo.
 
 Như vậy bạn đã có thể trình bày github của mình một cách sáng sủa bằng markdown.
-
-
+> git
 
 
