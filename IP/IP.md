@@ -96,22 +96,6 @@
 - Các thông số của IP Public cần được ghi nhớ chính xác. Đặc biệt khi thuê máy chủ để thiết lập kết nối chính xác cho website của mình.
 
 
-### 3.3) `Địa chỉ Ip tĩnh `:
-
-- Địa chỉ ip tĩnh có thể hình dung là một địa chỉ IP cố định dành riêng cho một người, nhóm người sử dụng.
-
-- Lúc này thiết bị kết nối đến internet của họ luôn luôn được đặt một địa chỉ IP.
-
-    > Một số ISP sẽ yêu cầu khách hàng khai báo (hoặc cam kết) về mục đích của việc sử dụng IP tĩnh để quản lý khi cung cấp dịch vụ IP tĩnh cho khách hàng (nhằm tránh tạo ra các máy chủ cung cấp dịch vụ mà không đăng ký hoặc không được phép theo quy định riêng của từng quốc gia).
-
-- Địa chỉ ip tĩnh sẽ được cung cấp cho một máy chủ với mục đích riêng, có thể là máy chủ web, mail… Từ đó cho phép nhiều người dùng có thể truy cập mà không bị gián đoạn quá trình.
-
-### 3.4) `Địa chỉ ip động` :
-
-- Trong trường hợp không sử dụng các dịch vụ đặc biệt cần sử dụng Ip tĩnh các nhà cung cấp ISP sẽ gán IP khác nhau cho mỗi lần kết nối, hoặc trong một phiên kết nối, đây được gọi là Ip động.
-
-- Khi máy tính ngừng kết nối vào mạng Internet thì nhà cung cấp sẽ sử dụng Ip cho một người khác sử dụng, hành động này nhằm tiết kiệm nguồn địa chỉ Ip đang dần cạn kiện.
-
 ## 4) `Quản lý địa chỉ IP ở các cấp độ mạng`:
 
 Địa chỉ IP cần được quản lý một cách hợp lý nhằm tránh xảy ra các xung đột khi đồng thời có hai địa chỉ IP giống nhau trên cùng một cấp mạng máy tính.
@@ -163,8 +147,20 @@
 
 - Anycast luôn sẵn có 1 bản sao lưu trong trường hợp một nút bị quá tải hoặc truy cập thất bại.
 
--
+## Ip tĩnh, động:
+### 7.1) `Địa chỉ Ip tĩnh `:
 
+- Địa chỉ ip tĩnh có thể hình dung là một địa chỉ IP cố định dành riêng cho một người, nhóm người sử dụng.
 
+- Lúc này thiết bị kết nối đến internet của họ luôn luôn được đặt một địa chỉ IP.
 
+    > Một số ISP sẽ yêu cầu khách hàng khai báo (hoặc cam kết) về mục đích của việc sử dụng IP tĩnh để quản lý khi cung cấp dịch vụ IP tĩnh cho khách hàng (nhằm tránh tạo ra các máy chủ cung cấp dịch vụ mà không đăng ký hoặc không được phép theo quy định riêng của từng quốc gia).
+
+- Địa chỉ ip tĩnh sẽ được cung cấp cho một máy chủ với mục đích riêng, có thể là máy chủ web, mail… Từ đó cho phép nhiều người dùng có thể truy cập mà không bị gián đoạn quá trình.
+
+### 7.2) `Địa chỉ ip động` :
+
+- Trong trường hợp không sử dụng các dịch vụ đặc biệt cần sử dụng Ip tĩnh các nhà cung cấp ISP sẽ gán IP khác nhau cho mỗi lần kết nối, hoặc trong một phiên kết nối, đây được gọi là Ip động.
+
+- Khi máy tính ngừng kết nối vào mạng Internet thì nhà cung cấp sẽ sử dụng Ip cho một người khác sử dụng, hành động này nhằm tiết kiệm nguồn địa chỉ Ip đang dần cạn kiện.
 
