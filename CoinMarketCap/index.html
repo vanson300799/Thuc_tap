@@ -1,0 +1,94 @@
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- <link rel="icon" href="https://i.ibb.co/D5jy9xX/DM.png" type="image/icon type" /> -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="diGiNoMixStyle.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+
+    <h1>Top 100 Cryptocurrencies by Market Capitalization</h1>
+    <!-- Nút -->
+    <div class="col-10 mx-auto">
+        <ul class="nav nav-tabs large" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="crypto-tab" href="index.html">Cryptocurrencies</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="exchange-tab" href="exchange.html"
+            >Exchanges</a
+          >
+        </li>
+        <div class="d-flex flex-row-reverse ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="next-tab" href="#">Next 100 &#8594;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="prev-tab" href="#">&#8592; Previous 100</a>
+            </li>
+    </div>
+    </ul>
+    <!-- Hiển thị dữ liêu -->
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="Cryptocurrencies" role="tabpanel">
+            <div class="d-flex justify-content-center">
+                <div id="loading" class="spinner-border text-warning" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+
+            <div class="container col-12">
+                <table class="table">
+                    <!-- Phần tiêu đề -->
+                    <thead>
+                        <tr>
+                            <th scope="col">Rank</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Market Cap</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Volume (24h)</th>
+                            <th scope="col">Circulating Supply</th>
+                            <th scope="col">Change (24h)</th>
+                        </tr>
+                    </thead>
+                    <!-- Phần dữ liệu -->
+                    <tbody id="myDisplay"></tbody>
+                </table>
+            </div>
+            <div class="tab-pane fade" id="Exchanges" role="tabpanel">...</div>
+            <div class="tab-pane fade" id="Next100" role="tabpanel"></div>
+        </div>
+    </div>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <style>
+        .footer {
+            width: 100%;
+            background-color: #fcc562;
+            color: #000066;
+            text-align: center;
+            padding-top: 12px;
+            padding-bottom: 5px;
+        }
+    </style>
+
+    <div class="footer">
+        <p>&#169; 2020 DiGiNoMix. All Rights Reserved.</p>
+    </div>
+
+    <!-- to display api click must put on bottom to run -->
+    <script src="indexPgApi.js"></script>
+</body>
+
+</html>
